@@ -67,7 +67,7 @@ function checkGuess(){
         setGameOver();
     }else{
         //10次之内没猜中，提示错误信息
-        lastResult.textContent='你猜错了！';
+        lastResult.textContent ='你猜错了！';
         //修改提示背景色
         lastResult.style.backgroundColor='red';
         //判断大小
